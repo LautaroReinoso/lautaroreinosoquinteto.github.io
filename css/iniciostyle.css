@@ -1,0 +1,80 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.grancontainer{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-flow: column nowrap;
+    }
+    header{
+        background-color: rgb(0, 0, 0);
+        display: flex;
+        flex: 1 1 auto;
+        justify-content: center;
+        }
+        #Logo{
+            display: flex;
+            margin: 50px 0px 0px 0px;
+            justify-content: center;
+            }
+    .Navegador {
+        margin: auto;
+        width: max-content;
+        display: flex;
+    }   
+        ul, ol{
+                        }
+    .Nav li a {
+        background-color: black;
+        color: white;
+        text-decoration: none;
+        padding: 10px 10px;
+        display: block;
+    }
+    .Nav li a:hover{
+        color: rgb(248, 227, 169);
+    }
+    .Nav > li {
+        float: left;
+    }
+    .Nav li ul {
+        display: none;
+        position: absolute;
+        min-width: auto;
+    }
+    .Nav li:hover > ul{
+        display: block;        
+    }
+    section{
+        background-color: black;
+        height: max-content;
+        display: flex;
+    }
+    #Text{
+            color: #f0ead4;
+            width: 600px;
+            margin: 120px 0px 0px 20px;
+            flex: 3 1 auto;
+        }
+    #Guitars {
+            margin: 160px 0px 0px 140px;
+            flex: 1 1 auto;
+        }
+    .aside {
+            background-color: black;
+            margin: 50px 0px;
+            height: max-content;
+        }
+        #Lamp{
+            margin: 10px;
+            height: 100%;
+        }
+        .footer {
+            background-color: black;
+        }
+
+@media (max-width: 700px) {
+    
+}

@@ -1,0 +1,16 @@
+{
+  "name": "LRQ",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "purgecss --css Sass/custom.css --content Inicio.html -o css/lrqcss.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bootstrap": "^5.1.1"
+  }
+}

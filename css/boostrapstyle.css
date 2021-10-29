@@ -1,0 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+#intro {
+    height: 100%;
+}
+
+#intro {
+    position: relative;
+    background-image: url("/img/Lamp.jpg");
+    background-size: cover;
+    background-position: center;
+}
